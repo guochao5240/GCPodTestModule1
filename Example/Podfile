@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GCPodTestModule1_Example' do
+  pod 'GCPodTestModule1', :path => '../'
+
+  target 'GCPodTestModule1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
