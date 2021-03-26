@@ -1,0 +1,16 @@
+PODS:
+  - GCPodTestModule1 (0.1.0)
+
+DEPENDENCIES:
+  - GCPodTestModule1 (from `../`)
+
+EXTERNAL SOURCES:
+  GCPodTestModule1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCPodTestModule1: a8f11addbe130366c6ac1ab00f3072cf1d1dc56b
+
+PODFILE CHECKSUM: 198467682be1888216ded4816d78bd6f70397d21
+
+COCOAPODS: 1.10.0
