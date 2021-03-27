@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GCtest1VC.h"
 
 FOUNDATION_EXPORT double GCPodTestModule1VersionNumber;
 FOUNDATION_EXPORT const unsigned char GCPodTestModule1VersionString[];
