@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1CE4CE260F1D2900041A48 /* GCtest1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		2BA7C502217DE610C382F5B1 /* Pods-GCPodTestModule1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Example.debug.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Example/Pods-GCPodTestModule1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		484CA91D3DDE6C9D9E45900A /* Pods-GCPodTestModule1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Tests.release.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Tests/Pods-GCPodTestModule1_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E1CE4CC260F1D2900041A48 /* GCtest1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCtest1VC.h; sourceTree = "<group>"; };
+		4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCtest1VC.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GCPodTestModule1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCPodTestModule1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B6540D23C3768FAFD024EB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B6540D23C3768FAFD024EB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8BD099895CF4701F041C48D9 /* Pods_GCPodTestModule1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCPodTestModule1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7B8AB89295210686E8D6FFB /* GCPodTestModule1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GCPodTestModule1.podspec; path = ../GCPodTestModule1.podspec; sourceTree = "<group>"; };
-		BC97D04E0347043A5504331A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7B8AB89295210686E8D6FFB /* GCPodTestModule1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCPodTestModule1.podspec; path = ../GCPodTestModule1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC97D04E0347043A5504331A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1D714D0768EEDA8FFDDD047 /* Pods_GCPodTestModule1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCPodTestModule1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4695CAA0B448228C184742 /* Pods-GCPodTestModule1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Example.release.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Example/Pods-GCPodTestModule1_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F905417EA345F1E02C7B5A01 /* Pods-GCPodTestModule1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Tests/Pods-GCPodTestModule1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1CE4CB260F1CA300041A48 /* Module1_action1 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1CE4CC260F1D2900041A48 /* GCtest1VC.h */,
+				4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */,
+			);
+			name = Module1_action1;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		6003F593195388D20070C39A /* Example for GCPodTestModule1 */ = {
 			isa = PBXGroup;
 			children = (
+				4E1CE4CB260F1CA300041A48 /* Module1_action1 */,
 				6003F59C195388D20070C39A /* GCAppDelegate.h */,
 				6003F59D195388D20070C39A /* GCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +206,6 @@
 				F905417EA345F1E02C7B5A01 /* Pods-GCPodTestModule1_Tests.debug.xcconfig */,
 				484CA91D3DDE6C9D9E45900A /* Pods-GCPodTestModule1_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "524086708@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2N779X7JN4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,6 +382,7 @@
 			files = (
 				6003F59E195388D20070C39A /* GCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GCViewController.m in Sources */,
+				4E1CE4CE260F1D2900041A48 /* GCtest1VC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +511,7 @@
 			baseConfigurationReference = 2BA7C502217DE610C382F5B1 /* Pods-GCPodTestModule1_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N779X7JN4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCPodTestModule1/GCPodTestModule1-Prefix.pch";
 				INFOPLIST_FILE = "GCPodTestModule1/GCPodTestModule1-Info.plist";
@@ -510,6 +528,7 @@
 			baseConfigurationReference = EA4695CAA0B448228C184742 /* Pods-GCPodTestModule1_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N779X7JN4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCPodTestModule1/GCPodTestModule1-Prefix.pch";
 				INFOPLIST_FILE = "GCPodTestModule1/GCPodTestModule1-Info.plist";
