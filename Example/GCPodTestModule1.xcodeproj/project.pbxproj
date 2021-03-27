@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E1CE4CE260F1D2900041A48 /* GCtest1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,8 +39,6 @@
 /* Begin PBXFileReference section */
 		2BA7C502217DE610C382F5B1 /* Pods-GCPodTestModule1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Example.debug.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Example/Pods-GCPodTestModule1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		484CA91D3DDE6C9D9E45900A /* Pods-GCPodTestModule1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCPodTestModule1_Tests.release.xcconfig"; path = "Target Support Files/Pods-GCPodTestModule1_Tests/Pods-GCPodTestModule1_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4E1CE4CC260F1D2900041A48 /* GCtest1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCtest1VC.h; sourceTree = "<group>"; };
-		4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCtest1VC.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GCPodTestModule1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCPodTestModule1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,15 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E1CE4CB260F1CA300041A48 /* Module1_action1 */ = {
-			isa = PBXGroup;
-			children = (
-				4E1CE4CC260F1D2900041A48 /* GCtest1VC.h */,
-				4E1CE4CD260F1D2900041A48 /* GCtest1VC.m */,
-			);
-			name = Module1_action1;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +132,6 @@
 		6003F593195388D20070C39A /* Example for GCPodTestModule1 */ = {
 			isa = PBXGroup;
 			children = (
-				4E1CE4CB260F1CA300041A48 /* Module1_action1 */,
 				6003F59C195388D20070C39A /* GCAppDelegate.h */,
 				6003F59D195388D20070C39A /* GCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -382,7 +369,6 @@
 			files = (
 				6003F59E195388D20070C39A /* GCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GCViewController.m in Sources */,
-				4E1CE4CE260F1D2900041A48 /* GCtest1VC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
